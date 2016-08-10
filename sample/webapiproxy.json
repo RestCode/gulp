@@ -1,0 +1,24 @@
+{
+  "JQuery": {
+    "fileTemplate":"*.jquery.js",
+    "services": [
+      {
+        "metadataEndpoint": "http://localhost:5000/",
+        "name": "MyClient1"
+      },
+      {
+        "metadataEndpoint": "http://localhost:5000/",
+        "name": "MyCasdasdadas2"
+      }
+    ]
+  },
+  "CSharp": {
+    "fileTemplate":"*.client.cs",
+    "services": [
+      {
+        "metadataEndpoint": "http://localhost:5000/",
+        "name": "MyCSClient"
+      }
+    ]
+  }
+}
