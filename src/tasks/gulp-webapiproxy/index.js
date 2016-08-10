@@ -12,7 +12,6 @@ function gulpWebApiProxy(config) {
         invokerType = ns + '.GeneratorInterop';
 
     if (config === undefined) {
-        gutil.log('not found');
         config = cwd + "\\webapiproxy.json";
     }
 
