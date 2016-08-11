@@ -3,8 +3,9 @@ var gulp = require('gulp'),
     gulputil = require('gulp-util'),
     webapiproxy = require('gulp-webapiproxy');
   
+var options = require('./webapiproxy.json');
 
-webapiproxy();
+webapiproxy(options);
 
 
 gulp.task('ping', function () {

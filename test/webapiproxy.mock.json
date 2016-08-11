@@ -3,11 +3,11 @@
   "JQuery": {
     "services": [
        {
-         "metadataEndpoint": "http://localhost:5000",
+         "metadataEndpoint": "api.test.com",
          "name": "myApi1"
        },
        {
-         "metadataEndpoint": "http://localhost:5000",
+         "metadataEndpoint": "api.test.com",
          "name": "myAp2"
        }
     ]
@@ -16,11 +16,11 @@
     "fileTemplate": "coolapi.*.cs",
     "services": [
        {
-         "metadataEndpoint": "http://localhost:5000",
+         "metadataEndpoint": "api.test.com",
          "name": "myWebApi1"
        },
        {
-         "metadataEndpoint": "http://localhost:5000",
+         "metadataEndpoint": "api.test.com",
          "name": "myWebAp2"
        }
     ]
