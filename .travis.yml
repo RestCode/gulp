@@ -5,7 +5,8 @@ node_js:
 - '0.12'
 branches:
   only:
-    - master
+  - master
 deploy:
   provider: npm
-  api_key: $key
+  api_key:
+    secure: GZMNpJbMx5E79W/C+BqgX62q1cZqJDWeWKrFSWxx5HyA9yuBJrHiDyp8aCuqqlHnqNes0kEWWyEntj/XtYFbhgiP6h9N/8t6VuxQmHrcVElLMkYbCSIi3wBgf81RoElCzNWGxmvYDMH8hXC/hPkIKrcN2gTy8SYh4cpHp/eR9VtliUkjDW4wCi3f3ZDBpHfiNX6xb68USp8Dc89sg8XMGIdmErdo3ciZGPDkUFsCfHyHdckyX0Cnn9U5OqqNJs/caIckz7DfDr9xfDJ4HIWaPUQysiXNkWiIo4uFkF6z1VlBiQ08XuUUzA/mzVtCGkU9yCsBQkZ9VRSzoWze5zE5jtK/vDJNEMGkuCvOYeUBeDVWYRwk2tJfoM8ZSG0ulGp2PXYb1URlYrQi389lHR3gMqqpMVEfnyD1JMImLQRMbQI/K+QhKikcqgVzochEaUxJlJumfgL/tMLN89sWpymJwSGpzV3TCnNGoljtpDlTUlKhDGGz4MPAFsZD6c2yliUyFHS4LgjEzUn/jRWZbRvf2jHDd5hACEigclHK+35UvVdKMZtmy+s8u+oBwZFhsV94PEyZt7xJ0gRFadeMIA4yFqXCsPpOr+Fo4iu+nbS4QlKYWgm2ed5OdOWc9f8XP8g9WqfRLo+0LM3PnBD+QvVRy7ZtbKggEesd2TCrwCkWNII=
