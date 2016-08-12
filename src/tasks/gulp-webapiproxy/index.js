@@ -8,14 +8,16 @@ module.exports = function (options) {
 
 
     for (var item in options) {
-        if (!item.startsWith("$")) {
+        if (item !== "$schema") {
             taskManager.register(item, function () {
                 taskManager.execute(item, options[item]);
             });
             taskCount++;
         }
 
-    }
+    } 
+    
+
 
     return {
         taskCount: taskCount
