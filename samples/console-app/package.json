@@ -4,12 +4,13 @@
   "description": "",
   "main": "gulpfile.js",
   "dependencies": {
-    
+    "gulp": "^3.9.1",
+    "gulp-webapiproxy": "0.0.3",
+    "gulp-webapiproxy-csharp": "file:..\\..\\src\\tasks\\gulp-webapiproxy-csharp"
   },
   "devDependencies": {
-    "gulp-webapiproxy":"0.0.1",
-    "gulp-webapiproxy-csharp":"0.0.1",
-    "gulp-webapiproxy-jquery":"0.0.1",
+    "gulp-webapiproxy": "0.0.3",
+    "gulp-webapiproxy-csharp": "0.0.1",
     "gulp": "^3.9.1"
   },
   "scripts": {

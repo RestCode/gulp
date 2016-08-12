@@ -1,0 +1,12 @@
+{
+  "$schema": "http://webapiproxy.github.io/schemas/client-config.json",
+  "CSharp": {
+    "fileTemplate": "*.Client.cs",
+    "services": [
+       {
+         "metadataEndpoint": "http://localhost:5000",
+         "name": "TestWebApi"
+       }
+    ]
+  }
+}
